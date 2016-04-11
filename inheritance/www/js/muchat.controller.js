@@ -16,7 +16,6 @@ function MuChatDetailCtrl($stateParams, $scope, MuChat) {
         return 'hello'.toUpperCase();
     }
 
-
     vm.init();
     console.log(vm.hello());
     vm.send();
